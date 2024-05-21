@@ -1,2 +1,2 @@
-#!/bin/bash
-SHOW DATABASES;
+-- List all databases
+SHOW DATABASESi;

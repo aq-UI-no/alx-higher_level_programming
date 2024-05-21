@@ -1,2 +1,2 @@
--- Prints the full description of the table 'first_table'
-SELECT COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_KEY, COLUMN_DEFAULT, EXTRA FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'first_table';
+-- Script that prints the full description of the table for the database in your mysql server
+DESC first_table

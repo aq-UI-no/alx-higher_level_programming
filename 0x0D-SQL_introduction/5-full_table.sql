@@ -1,2 +1,2 @@
--- Script that prints full description of table
-DESC first_table;
+-- Script that prints full description
+SHOW CREATE TABLE first_table;

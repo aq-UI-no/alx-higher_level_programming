@@ -1,5 +1,2 @@
 #!/usr/bin/python3
-if __name__ == '__main__':
-    i = chr;
-    for i in range(ord('a'), ord('z') + 1):
-        print(chr(i), end="")
+print("".join("{}".format(chr(c)) for c in range(97, 123)), end="")

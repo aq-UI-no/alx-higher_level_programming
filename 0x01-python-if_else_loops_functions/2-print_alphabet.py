@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import string
-alphabet = string.ascii_lowercase
-for letter in alphabet:
-    print(letter, end="")
+if __name__ == '__main__':
+    i = chr;
+    for i in range(ord('a'), ord('z') + 1):
+        print(chr(i), end="")
